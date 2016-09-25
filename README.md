@@ -14,6 +14,7 @@ This is a web app connected to a database, it can be installed in any company se
 * Just run the php file /init/index.php
 * To do this you must give database credentials DB_USER and DB_PASS
 * Change database credentials DB_USER and DB_PASS in ../init/src/JC/database/config.php.
+* Change database table contants in ../init/src/JC/database/contatants.php.
 
 ### Very Important
 * Extract it into your root path.
@@ -21,7 +22,6 @@ This is a web app connected to a database, it can be installed in any company se
 * Change quickbooks credentials in ../init/src/config.php.
 * Change xero credentials in ../init/src/api/xero-sdk/config.php.
 * Change extension_root in javascript.
-* Change database table contants in ../init/src/JC/database/contatants.php.
 
 ### Extras
 * To modify html layout you need to modify ../init/pages/nameOfFileYouWannaChange.php pick any name of file you wanna change
