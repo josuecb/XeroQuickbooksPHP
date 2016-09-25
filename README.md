@@ -10,13 +10,17 @@ This is a web app connected to a database, it can be installed in any company se
 
 ## Instalation
 
+### Setup database
+* Just run the php file /init/index.php
+* To do this you must give database credentials DB_USER and DB_PASS
+* Change database credentials DB_USER and DB_PASS in ../init/src/JC/database/config.php.
+
 ### Very Important
 * Extract it into your root path.
 * We meed a developer account for accessing to both, quickbooks and xero (production or development keys).
 * Change quickbooks credentials in ../init/src/config.php.
 * Change xero credentials in ../init/src/api/xero-sdk/config.php.
 * Change extension_root in javascript.
-* Change database credentials DB_USER and DB_PASS in ../init/src/JC/database/config.php.
 * Change database table contants in ../init/src/JC/database/contatants.php.
 
 ### Extras
