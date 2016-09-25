@@ -1,5 +1,5 @@
 var timer = null;
-var extension_root = '/quickbooks'; // change to your root extension for example localhost/example_folder/repository_files
+var extension_root = ''; // change to your root extension for example localhost/example_folder/repository_files
 // your extension root is '/example_folder'
 
 $(function () {
