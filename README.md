@@ -45,4 +45,32 @@ XeroOAuth class is based on code and structure derived from the [tmhOAuth](https
 
 ###### Welcome Page
 
-![Analysis Desktop App](img/img1.png)
+![Welcome Page](img/img1.png)
+
+###### Pick Account Type
+
+![Pick Account Type](img/img2.png)
+
+###### Quickbooks Login Pop Up
+
+![Quickbooks Login Pop Up](img/img3.png)
+
+###### Xero Login Pop Up
+
+![Xero Login Pop Up](img/img4.png)
+
+###### Confirmation Success Login submission
+
+![Confirmation Success Login submission](img/img5.png)
+
+###### Admin Page Registered Users
+
+![Admin Page Registered Users](img/img6.png)
+
+###### Selected User Invoices Info Tables
+
+![Selected User Invoices Info Tables](img/img7.png)
+
+###### Database created by App
+
+![Database created by App](img/img8.png)
