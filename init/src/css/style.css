@@ -1,0 +1,162 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background: #fff;
+}
+
+body.main-page {
+    text-align: center;
+}
+
+.title {
+    color: #08c;
+    margin: 16px;
+    font-size: 48px;
+    font-weight: 300;
+}
+
+.sub-title {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.option-container {
+    margin: 24px;
+    display: inline-block;
+}
+
+.option-box {
+    display: inline-block;
+    margin: 0 32px;
+    border: .5px solid #000;
+    padding: 16px;
+    border-radius: 4px;
+}
+
+.option-box:hover {
+    background: rgba(255, 255, 255, .5);
+    border: initial;
+    color: #ff9800;
+}
+
+.option-img {
+    width: 48px;
+    height: 48px;
+}
+
+.button-img {
+    width: 172px;
+    height: 48px;
+}
+
+form {
+    margin: initial;
+}
+
+a.intuitPlatformConnectButton, a.intuitPlatformReconnectButton, #intuitPlatformAppMenu a.intuitPlatformReconnectButton {
+    background: url(http://localhost/quickbooks/init/src/imges/quickbooks_button.png) no-repeat;
+    background-size: 100% auto;
+    width: 172px;
+    height: 48px;
+}
+
+a.intuitPlatformConnectButton:hover, .intuitPlatformReconnectButton:hover, #intuitPlatformAppMenu .intuitPlatformReconnectButton:hover {
+    background-position: 0;
+}
+
+div > a {
+    color: inherit;
+}
+
+div > a:hover {
+    color: inherit;
+}
+
+a > i.extra_large {
+    font-size: 84px;
+}
+
+div.table {
+    width: 100%;
+    display: inline-flex;
+}
+
+div.table > div.table-inner-wrapper {
+    display: inline-block;
+    margin: auto;
+
+}
+
+div.rows {
+    display: block;
+    width: auto;
+}
+
+div.rows:first-of-type {
+    background: #efefef;
+}
+
+div.rows:last-of-type {
+    border-bottom: .1px solid #000;;
+}
+
+div.columns {
+    display: inline-flex;
+    min-width: 120px;
+    min-height: 48px;
+    border: .1px solid #000;
+    margin: 0 -2px;
+    border-right: initial;
+    border-bottom: initial;
+}
+
+div.columns:last-of-type {
+    border-right: .1px solid #000;;
+}
+
+div.columns > div.column-inner-wrapper {
+    margin: auto;
+}
+
+div .columns.c_small {
+    min-width: 90px;
+    font-size: 12px;
+}
+
+input[type=submit], .modern-button {
+    border-radius: 5px;
+    border: transparent;
+    padding: 0 12px;
+    color: #fff;
+    min-height: 28px;
+    /*background: c;*/
+    background: rgba(0, 136, 204, .8);
+}
+
+input[type=submit], .modern-button {
+    border-radius: 5px;
+    border: transparent;
+    padding: 0 12px;
+    color: #fff;
+    min-height: 28px;
+    /*background: c;*/
+    background: rgba(0, 136, 204, .8);
+}
+
+.big-padding-button {
+    padding: 12px 18px;
+}
+
+.right-corner-button{
+    position: absolute;
+    top: 24px;
+    right: 32px;
+}
+
+input[type=submit]:hover, .modern-button:hover {
+    /*color: #6bf;*/
+    color: rgba(135, 219, 235, 1);
+    background: #08c;
+}
